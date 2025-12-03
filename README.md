@@ -20,4 +20,10 @@ Steps:
     intensity: power of the signal
 (sx,dx <- fast change in the sign of the frequency or dispersion of energy on more frequencies)
 
+out dataset will be composed as follow:
+-0: Forward ->  2sec window extracted from UT-HAR "Walking"
+-1: Stop ->  2sec window extracted from UT-HAR "Standing"
+-2: Right ->  complete campion from widar3.0 (right gesture)
+-3: Left ->  complete campion from widar3.0 (left gesture)
+
 to reduce computational cost we can use dwt wich is lighter
