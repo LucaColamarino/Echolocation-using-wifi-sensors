@@ -26,4 +26,6 @@ out dataset will be composed as follow:
 -2: Right ->  complete campion from widar3.0 (right gesture)
 -3: Left ->  complete campion from widar3.0 (left gesture)
 
+merging sweep and slide (left and right)may  make the model more robust
+
 to reduce computational cost we can use dwt wich is lighter
